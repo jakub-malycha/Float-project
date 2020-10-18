@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Lato;
+  src: url(./../assets/Lato/Lato-Regular.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato";
+  background-color: #73b7e1;
+  color: white;
+}
+main {
+  height: 80vh;
+}
+
+.section-left {
+  width: 50%;
+  float: left;
+}
+.section-right {
+  position: relative;
+  width: 50%;
+  float: right;
+}
+
+section {
+  margin-top: 50px;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+p {
+  font-size: 20px;
+}
+
+section h1,
+p {
+  margin-bottom: 50px;
+}
+
+.navigation {
+  background-color: rgba(256, 256, 256, 0.5);
+  height: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 14px;
+  text-align: center;
+}
+
+li {
+  cursor: pointer;
+  margin: 40px;
+  list-style: none;
+  display: inline;
+  color: darkblue;
+  transition: 0.2s;
+}
+
+li:hover {
+  border-bottom: 2px solid darkblue;
+}
+
+.button {
+  position: absolute;
+  right: 20%;
+  background-color: #d469a5;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: white;
+
+  transition: all 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.1) translateY(-3px);
+  background-color: #cf2385;
+}
